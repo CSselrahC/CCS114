@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	cursor: url("../images/mouseCursor.ico"), default;
+}
+
+body {
+	background-color: #B90E0A;
+	background-image: url("../images/foodFiestaBackground.png");
+	background-size: 150px;
+	background-repeat: repeat;
+	margin: 0;
+	min-height: 100vh;
+}
+
+/* scrollbar */
+body::-webkit-scrollbar {
+	width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+	background: #231709;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #CDB891;
+	border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background: #FAF0E6; 
+}
+
+/* header */
+.sticky {
+	position: sticky;
+	top: 0;
+}
+
+nav {
+	background-color: #FFFFFF;
+	box-shadow: 3px 3px 5px rgba (0, 0, 0, 0.1);
+	padding: 10px 16px;
+	background: #231709;
+	color: #f1f1f1;
+	position: sticky;
+}
+
+#myHeader {
+	z-index: 999;
+}
+
+.header {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 50px;
+}
+
+nav a {
+	height: 100%;
+	padding: 0 30px;
+	text-decoration: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	font-size: 16px;
+	transition-duration: 0.3s;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	position: relative;
+	color: #FFFFFF;
+}
+
+.header a:hover {
+	color: #FFFFFF;
+	background-color: #37240e;
+}
+
+.header a:nth-child(2) {
+	color: #231709;
+	background-color: #FFA500;
+	border-radius: 50px;
+	margin-right: 5px;
+}
+
+.header a:nth-child(2):hover {
+	background-color: #FF0000;
+	margin-right: 5px;
+}
+
+.header a:nth-child(n+3):hover {
+	color: #231709;
+	background-color: #FFFFFF;
+}
+
+.header a:nth-child(1) {
+	margin-right: auto;
+}
+
+/* content */
+#errorMessage1 {
+	background-color: #FFFFFF;
+	width: 1000px;
+	height: 700px;
+	max-width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 50px 50px;
+	color: #231709;
+}
+
+#dogeza {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+/* Home Page Button */
+#homePageButton {
+	position: relative;
+	background-color: #FFA500;
+	border-radius: 50px;
+	height: 100%;
+	padding: 20px 30px;
+	text-align: center;
+	font-size: 16px;
+	transition-duration: 0.3s;
+	cursor: pointer;
+	color: #231709;
+	text-decoration: none;
+	top: 100px;
+}
+
+#homePageButton:hover {
+	background-color: #FF0000;
+}
