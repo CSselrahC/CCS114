@@ -9,4 +9,6 @@ List of works:
 - Midterm 4 (https://csselrahc.github.io/CCS114/midterm/midterm4)
 - Midterm 5 (https://csselrahc.github.io/CCS114/midterm/midterm5)
 - Finals 1 - E-Commerce (https://csselrahc.github.io/CCS114/finals/ecommerce)
-- Finals 2 - Portfolio (https://csselrahc.github.io/CCS114/finals/portfolio)
+- Finals 2 - E-Commerce Video (https://drive.google.com/drive/folders/1k2QDIHKiUMR6o8BY9bQKbOY7H55yQONg)
+- Finals 3 - Portfolio (https://csselrahc.github.io/CCS114/finals/portfolio)
+
